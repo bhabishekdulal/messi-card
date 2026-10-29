@@ -1,0 +1,79 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Heading */
+h1 {
+    background-color: #1a2a3a;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Navigation Links Container */
+.nav-links {
+    margin-bottom: 25px;
+}
+
+/* Navigation Links Design */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-home { background-color: #008CBA; }
+.btn-gallery { background-color: #4CAF50; }
+.btn-contact { background-color: #7b1fa2; }
+
+.nav-links a:hover {
+    opacity: 0.8;
+}
+
+/* Sections Styling */
+.section {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Specific Section Background Colors */
+.home { background-color: #f8d7da; }
+.gallery { background-color: #d4edda; }
+.contact { background-color: #d1ecf1; }
+
+/* Section Headings */
+.section h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* Gallery Images Layout */
+.image-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 2px solid white;
+}
