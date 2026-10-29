@@ -1,0 +1,59 @@
+/* Basic reset & body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 1. Card Container */
+.card {
+    width: 300px;
+    background-color: #ffffff; /* background color */
+    padding: 15px;             /* padding */
+    margin: 20px;              /* margin */
+    border: 1px solid #dddddd; /* border */
+    border-radius: 15px;       /* border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* box-shadow */
+    text-align: center;
+}
+
+/* Image styling */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Heading styling (text color, font size) */
+.card h2 {
+    color: #1a2a3a;
+    font-size: 22px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+/* Description paragraph styling */
+.card p {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+/* Button / Link styling */
+.card-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.card-btn:hover {
+    background-color: #0056b3;
+}
